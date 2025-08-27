@@ -6,7 +6,7 @@ python finetune.py  \
 --backbone Vit \
 --init_weights "./Vit_small_mae_pretrained.pth" \
 --dataset MiniImageNet \
---dataset_path "/data/fewshot/miniImageNet--ravi/" \
+--dataset_path "/kaggle/working/fslkd/data/fewshot/mini_imagenet100/" \
 --way 5 \
 --shot 1 \
 --query 15 \
