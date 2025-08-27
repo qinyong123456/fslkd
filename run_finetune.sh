@@ -4,7 +4,8 @@ python finetune.py  \
 --episodes_per_epoch 2000 \
 --classifier ProtoNet \
 --backbone Vit \
---init_weights "./Vit_small_mae_pretrained.pth" \
+#./Vit_small_mae_pretrained.pth
+--init_weights " " \
 --dataset MiniImageNet \
 --dataset_path "/kaggle/working/fslkd/data/fewshot/mini_imagenet100/" \
 --way 5 \
